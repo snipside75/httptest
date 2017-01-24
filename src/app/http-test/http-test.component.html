@@ -1,0 +1,17 @@
+<h1>Task A </h1>
+<p>
+  {{ mod.module }}
+</p>
+<p>
+  {{ mod.moduleResolution }}
+</p>
+<p>
+  {{ mod.outDir }}
+</p>
+
+<h1>Task B </h1>
+<ul>
+  <li *ngFor="let image of images">
+    <img [src] = "'http://media.mw.metropolia.fi/wbma/uploads/'+ image.filename">
+  </li>
+</ul>
